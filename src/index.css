@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+video {
+    @apply object-cover w-full h-full;
+  }
+  
