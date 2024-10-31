@@ -1,6 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Sora", sans-serif;
+  font-weight: 300;
+}
+
+.custom-dots {
+  display: flex !important;
+  justify-content: center;
+  bottom: -20px !important;
+}
+
+.dot-button {
+  width: 8px;
+  height: 8px;
+  background-color: #cbd5e1;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-dots .slick-active .dot-button {
+  background-color: #3b82f6 !important; 
+  transform: scale(2); 
+}
 
 video {
     @apply object-cover w-full h-full;

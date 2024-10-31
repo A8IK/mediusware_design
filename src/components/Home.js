@@ -97,13 +97,13 @@ const Home = () => {
 
         {/* Hero Section */}
         <div className="flex flex-col items-center mt-16 md:mt-0">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            Transforming Your Ideas into <span className="text-green-400">Digital Outcomes</span>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight font-sora">
+            Transforming Your Ideas <br/> into <span className="text-green-400">Digital Outcomes</span>
           </h1>
-          <p className="max-w-lg text-base sm:text-lg md:text-xl mb-6">
+          <p className="w-full text-base sm:text-lg md:text-xl mb-6 leading-relaxed font-sora text-center px-4 md:px-0 font-sora mt-4">
             Our global journey needs your expertise. Align with our brand ethos and help us reach new heights across the world.
           </p>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white font-sora font-bold text-lg py-3 px-6 rounded-[12px] flex items-center tracking-wide">
+          <button className="bg-blue-500 hover:bg-blue-600 text-white font-sora mt-8 text-lg py-3 px-6 rounded-[12px] flex items-center tracking-wide">
             <span className="mr-2"><img src="/telephone.png" alt="Talk Icon" className="h-5 w-5" /></span> Talk to Someone
           </button>
         </div>
