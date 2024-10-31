@@ -21,7 +21,7 @@ const Home = () => {
       <div className="relative z-10 flex flex-col items-center justify-center h-screen text-center text-white px-4 md:px-6">
 
         <header className="absolute top-0 left-0 w-full flex justify-between items-center p-4 md:px-8 lg:px-12">
-          <a href="#">
+          <a href="Home.js">
             <img src="/Layer_1.png" alt="Mediusware Logo" className="h-8 md:h-10 ml-14 mr-14" />
           </a>
 

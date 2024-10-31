@@ -28,7 +28,7 @@ const ProjectShowcase = () => {
           <p className="text-gray-600 text-sm mt-2 flex-grow">
           Thruhike is the ultimate platform for discovering and sharing your favorite places and products...
           </p>
-          <a href="#" className="text-blue-500 mt-4 inline-block self-end">View Project →</a>
+          <a href="Home.js" className="text-blue-500 mt-4 inline-block self-end">View Project →</a>
         </div>
 
         <div className="bg-gray-100 p-4 rounded-tl-lg shadow-md hover:shadow-lg transition w-[464px] h-[540px] flex flex-col">
@@ -37,7 +37,7 @@ const ProjectShowcase = () => {
             <p className="text-gray-600 text-sm mt-2 flex-grow">
               Game Launcher is a sleek desktop application designed exclusively for gamers...
             </p>
-            <a href="#" className="text-blue-500 mt-4 inline-block self-end">View Project →</a>
+            <a href="Home.js" className="text-blue-500 mt-4 inline-block self-end">View Project →</a>
       </div>
 
       <div className="bg-gray-100 p-4 rounded-tl-lg shadow-md hover:shadow-lg transition w-[464px] h-[540px] flex flex-col">
@@ -46,7 +46,7 @@ const ProjectShowcase = () => {
           <p className="text-gray-600 text-sm mt-2 flex-grow">
           LearnHere is the platform that presents all the lessons from Beginner to Expert Level with live...
           </p>
-          <a href="#" className="text-blue-500 mt-4 inline-block self-end">View Project →</a>
+          <a href="Home.js" className="text-blue-500 mt-4 inline-block self-end">View Project →</a>
       </div>
 </div>
     </section>
