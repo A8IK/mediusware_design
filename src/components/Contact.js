@@ -3,7 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const ContactSection = () => {
 return (
-<div className="container mx-auto mb-28">
+<div className="container mx-auto mb-28 mt-14">
   <div className="flex flex-col gap-8 justify-between lg:flex-row">
       <div className=" w-full lg:w-1/2">
           <div className="relative">

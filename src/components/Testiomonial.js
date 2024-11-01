@@ -31,7 +31,7 @@ const Testimonial = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    dotsClass: "slick-dots custom-dots", // Add custom class here
+    dotsClass: "slick-dots custom-dots",
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
       { breakpoint: 640, settings: { slidesToShow: 1 } },
@@ -45,13 +45,12 @@ const Testimonial = () => {
           borderRadius: '50%',
           backgroundColor: '#cbd5e1', // Light gray color for inactive dots
           transition: 'background-color 0.3s ease, transform 0.3s ease',
-        }}
-      />
+        }}/>
     ),
   };
 
   return (
-    <div className="bg-blue-50 py-16">
+    <div className="px-4 bg-blue-50 py-16">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-gray-800">
           What the People <span className="text-teal-500">Are Saying</span>

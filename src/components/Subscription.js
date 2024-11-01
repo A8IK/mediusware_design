@@ -2,7 +2,7 @@ import React from "react";
 
 const SubscriptionBanner = () => {
   return (
-    <div className="bg-white py-12">
+    <div className="bg-white py-12 mt-14">
       <div className="max-w-6xl mx-auto px-4">
         <div className="bg-blue-900 rounded-lg py-8 px-4 md:px-12 flex flex-col md:flex-row items-center justify-between">
           <div className="text-white mb-6 md:mb-0">

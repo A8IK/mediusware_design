@@ -35,14 +35,14 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="pt-20 pb-10 text-center">
+    <section className="container mx-auto pt-20 pb-10 text-center">
       <h2 
         className="text-2xl sm:text-3xl md:text-[48px] font-semibold leading-[30px] sm:leading-[40px] md:leading-[60px] tracking-[-0.02em] mb-8 whitespace-nowrap overflow-hidden text-ellipsis" 
         style={{ fontFamily: 'Sora, sans-serif' }}>
         Things We’re <span className="text-green-500">Good At</span>
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 md:px-8 lg:px-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-14 md:px-8 lg:px-12">
         {services.map((service, index) => (
           <div
             key={index}

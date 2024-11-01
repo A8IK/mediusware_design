@@ -13,7 +13,7 @@ const Home = () => {
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-80% object-cover"
         src="/simple.mp4"></video>
 
       <div className="absolute inset-0 bg-black opacity-70"></div>

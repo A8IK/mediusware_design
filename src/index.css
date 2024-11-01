@@ -10,26 +10,52 @@ body {
   font-weight: 300;
 }
 
+.project-card {
+  @apply bg-gray-100 p-6 rounded-lg shadow-md flex flex-col h-full;
+}
+
+.project-image {
+  @apply w-full h-[60%] object-cover rounded-md mb-4;
+}
+
+.project-card a {
+  @apply text-blue-500 mt-auto inline-block font-semibold;
+  padding: 8px 16px; 
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-card h3 {
+  @apply text-xl font-semibold;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.slick-slide {
+  padding: 0 8px; 
+}
+
+/* Hover effect for button */
+.project-card a:hover {
+  @apply bg-blue-500 text-white; 
+}
+
+/* Custom dot styles */
 .custom-dots {
-  display: flex !important;
-  justify-content: center;
-  bottom: -20px !important;
+  @apply flex justify-center;
+  bottom: -45px !important;
 }
 
 .dot-button {
-  width: 8px;
-  height: 8px;
-  background-color: #cbd5e1;
-  border-radius: 50%;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  @apply w-2 h-2 bg-gray-300 rounded-full transition duration-300 ease-in-out;
 }
 
 .custom-dots .slick-active .dot-button {
-  background-color: #3b82f6 !important; 
-  transform: scale(2); 
+  background-color: #3b82f6 !important;
+  transform: scale(2);
 }
 
 video {
-    @apply object-cover w-full h-full;
-  }
-  
+  @apply object-cover w-full h-full;
+}
