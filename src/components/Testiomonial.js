@@ -18,7 +18,7 @@ const testimonials = [
   },
   {
     image: "/p3.jpeg",
-    title: "Our Digital Transformation Journey Fueled by Top-Tier IT Solutions...",
+    title: "Our Digital Transformation Journey Fueled by Top-Tier IT Solutions by Mediusware Ltd.",
     name: "Kristin Watson",
     position: "Director, Company Name",
   },
@@ -56,14 +56,14 @@ const Testimonial = () => {
           What the People <span className="text-teal-500">Are Saying</span>
         </h2>
         <p className="text-gray-600 mt-2">
-          Explore success stories from clients across a range of industries, spanning from techpreneurs and startups to established enterprises.
+          Explore success stories from clients across a range of industries, spanning from techpreneurs and start-<br/>ups to established enterprises.
         </p>
       </div>
       <div className="container mx-auto px-4">
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="p-4">
-              <div className="bg-white rounded-lg shadow-lg p-6">
+            <div key={index} className="p-5">
+              <div className="bg-white rounded-lg shadow-lg p-5">
                 <img
                   src={testimonial.image}
                   alt="Testimonial"
@@ -71,8 +71,11 @@ const Testimonial = () => {
                 <h3 className="text-lg font-semibold text-gray-800">
                   {testimonial.title}
                 </h3>
+                <p className="text-sm text-black-500 font-semibold mt-2">
+                  {testimonial.name},
+                </p>
                 <p className="text-sm text-gray-500 mt-2">
-                  {testimonial.name}, {testimonial.position}
+                 {testimonial.position}
                 </p>
               </div>
             </div>

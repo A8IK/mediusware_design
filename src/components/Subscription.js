@@ -2,7 +2,7 @@ import React from "react";
 
 const SubscriptionBanner = () => {
   return (
-    <div className="bg-white py-12 mt-14">
+    <div className="container mx-auto max-w-6xl bg-white py-12 mt-14">
       <div className="max-w-6xl mx-auto px-4">
         <div className="bg-blue-900 rounded-lg py-8 px-4 md:px-12 flex flex-col md:flex-row items-center justify-between">
           <div className="text-white mb-6 md:mb-0">
@@ -15,8 +15,8 @@ const SubscriptionBanner = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="w-full md:w-auto py-2 px-4 rounded-lg border-none focus:outline-none text-gray-900"/>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-r-md md:rounded-full border-l-0 border-blue-600  w-[132px] h-[48px] opacity-100">
+              className="w-full md:w-auto py-2 px-12 rounded-lg border-none focus:outline-none text-gray-900"/>
+            <button className="bg-blue-500 hover:bg-blue-500 text-white font-semibold py-3 px-6 rounded-xl md:rounded-xl border-l-0 border-blue-500  w-[132px] h-[48px] opacity-100">
               Subscribe
             </button>
           </div>

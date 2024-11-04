@@ -12,7 +12,7 @@ const Achievements = () => {
     <div className="bg-blue-50 py-12">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-semibold text-gray-800 mb-4">
-          Achievements <span className="text-green-500">& Awards</span>
+          Achievements <span className="text-teal-500">& Awards</span>
         </h2>
         <p className="text-gray-600 mb-10 max-w-2xl mx-auto">
           People know us for our top-notch work and great customer service, all of whom have expressed nothing but

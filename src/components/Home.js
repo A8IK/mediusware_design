@@ -98,7 +98,7 @@ const Home = () => {
         {/* Hero Section */}
         <div className="flex flex-col items-center mt-16 md:mt-0">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight font-sora">
-            Transforming Your Ideas <br/> into <span className="text-green-400">Digital Outcomes</span>
+            Transforming Your Ideas <br/> into <span className="text-teal-600">Digital Outcomes</span>
           </h1>
           <p className="w-full text-base sm:text-lg md:text-xl mb-6 leading-relaxed font-sora text-center px-4 md:px-0 font-sora mt-4">
             Our global journey needs your expertise. Align with our brand ethos and help us reach new heights across the world.

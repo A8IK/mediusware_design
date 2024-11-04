@@ -3,8 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <section className="bg-blue-50 py-16 px-4 lg:px-20">
-      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center relative">
-
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center relative">
         <div className="lg:w-1/2 mb-8 lg:mb-0 relative z-10">
           <img
             src="/about.png"
@@ -15,7 +14,7 @@ const About = () => {
         {/* Content with Overlap */}
         <div className="lg:w-1/2 bg-white p-8 rounded-xl shadow-lg lg:absolute lg:right-0 lg:top-1/2 lg:-translate-y-1/2 lg:-translate-x-12 z-20 space-y-6">
           <h2 className="text-3xl font-bold text-gray-800 mb-2">
-            A Little Bit <span className="text-green-500">About Us</span>
+            A Little Bit <span className="text-teal-500">About Us</span>
           </h2>
           <p className="text-gray-600 leading-relaxed">
             Incepted in 2015, Mediusware Ltd. has been serving as a leading IT

@@ -39,7 +39,7 @@ const ServicesSection = () => {
       <h2 
         className="text-2xl sm:text-3xl md:text-[48px] font-semibold leading-[30px] sm:leading-[40px] md:leading-[60px] tracking-[-0.02em] mb-8 whitespace-nowrap overflow-hidden text-ellipsis" 
         style={{ fontFamily: 'Sora, sans-serif' }}>
-        Things We’re <span className="text-green-500">Good At</span>
+        Things We’re <span className="text-teal-500">Good At</span>
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-14 md:px-8 lg:px-12">
@@ -57,7 +57,7 @@ const ServicesSection = () => {
           </div>
         ))}
       </div>
-        <button className="mt-8 bg-blue-500 text-white font-medium px-8 py-3 rounded-lg hover:bg-blue-600 flex items-center justify-center mx-auto">See All<img src="/seeAll.png" alt="Arrow Icon" className="ml-2 w-[16px] h-[12px] opacity-100 border-t-[1.67px] border-transparent inline-flex"/>
+        <button className="mt-8 bg-blue-500 text-white font-medium px-8 py-3 rounded-xl hover:bg-blue-600 flex items-center justify-center mx-auto">See All<img src="/seeAll.png" alt="Arrow Icon" className="ml-2 w-[16px] h-[12px] opacity-100 border-t-[1.67px] border-transparent inline-flex"/>
         </button>
     </section>
   );

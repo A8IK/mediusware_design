@@ -7,7 +7,7 @@
 
 body {
   font-family: "Sora", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .project-card {
@@ -34,7 +34,7 @@ body {
 
 .slick-slide {
   padding: 0 8px; 
-}
+} 
 
 /* Hover effect for button */
 .project-card a:hover {
@@ -45,15 +45,39 @@ body {
 .custom-dots {
   @apply flex justify-center;
   bottom: -45px !important;
+  position: relative;
 }
 
 .dot-button {
   @apply w-2 h-2 bg-gray-300 rounded-full transition duration-300 ease-in-out;
+  box-shadow: none;
+  border: none;
+  width: 8px;
+  height: 8px;
+  background-color: #cbd5e1;
+  border-radius: 50%;
+  margin: 0 4px; 
+  transition: background-color 0.3s ease;
+  
 }
 
 .custom-dots .slick-active .dot-button {
   background-color: #3b82f6 !important;
   transform: scale(2);
+}
+
+.custom-dots .slick-active .dot-button::before,
+.custom-dots .slick-active .dot-button::after {
+  display: none; 
+}
+
+.active-dot-bar {
+  position: absolute;
+  bottom: 0;
+  height: 4px; /* Height of the active bar */
+  background-color: #3b82f6;
+  border-radius: 4px;
+  transition: left 0.5s ease; /* Smooth sliding effect */
 }
 
 video {
